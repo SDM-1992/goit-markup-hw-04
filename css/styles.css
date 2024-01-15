@@ -64,8 +64,7 @@ img {
   display: flex;
   gap: 40px;
 }
-.navigation-item {
-}
+
 .navigation-link {
   color: #2e2f42;
   font-weight: 500;
@@ -86,8 +85,7 @@ img {
   gap: 40px;
   padding: 24px 0;
 }
-.contact-item {
-}
+
 .contact-link {
   color: #434455;
   letter-spacing: 0.32px;
@@ -102,6 +100,12 @@ img {
 .main-title {
   padding: 188px 0;
   background-color: #2e2f42;
+  background-image: linear-gradient(
+  rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+  url(/images/people-office\ 1\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .title-container {
   width: auto;
@@ -155,6 +159,11 @@ img {
 .information-section {
   width: calc((100% - 3 * 24px) / 4);
 }
+.information-section-icon {
+  border: 1px solid red;
+
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
