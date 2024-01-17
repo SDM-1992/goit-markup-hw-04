@@ -252,6 +252,10 @@ img {
   color: #2e2f42;
   margin-bottom: 72px;
 }
+
+.name-wrap {
+  display: flex;
+}
 .name {
   color: #2e2f42;
   background-color: #fff;
