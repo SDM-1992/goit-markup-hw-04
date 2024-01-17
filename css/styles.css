@@ -84,7 +84,7 @@ img {
   color: #404bbf;
 }
 
-.navigation-link:active:after {
+.navigation-link::after {
   content: "";
   width: 48px;
   height: 4px;
