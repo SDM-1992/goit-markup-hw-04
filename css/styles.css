@@ -288,6 +288,7 @@ img {
   margin-bottom: 32px;
 }
 
+
 .social-link-item {
   height: 40px;
   width: 40px;
@@ -305,10 +306,10 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-link-item:hover {
+.social-link-link:hover {
   background-color: #404bbf;
 }
-.social-link-item:focus {
+.social-link-link:focus {
   background-color: #404bbf;
 }
 
