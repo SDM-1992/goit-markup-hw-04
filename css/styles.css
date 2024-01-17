@@ -84,6 +84,17 @@ img {
   color: #404bbf;
 }
 
+.navigation-link:active:after {
+  content: "";
+  width: 48px;
+  height: 4px;
+  left: 0;
+  border-radius: 2px;
+  background-color: #404bbf;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+}
 .contact {
   font-style: normal;
 }
