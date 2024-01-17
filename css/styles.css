@@ -83,11 +83,20 @@ img {
   color: #404bbf;
 }
 .navigation-link-first {
-  color: 404bbf;
+  color: #404bbf;
   font-weight: 500;
   letter-spacing: 0.32px;
   padding: 24px 0;
   position: relative;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.navigation-link-first:hover {
+  color: #404bbf;
+}
+.navigation-link-first:focus {
+  color: #404bbf;
 }
 .navigation-link-first::after {
   content: "";
@@ -233,6 +242,7 @@ img {
   letter-spacing: 0.32px;
 }
 
+/* SECTION 3 READY top*/
 .team {
   padding: 120px 0;
   background-color: #f4f4fd;
@@ -287,13 +297,10 @@ img {
   justify-content: center;
   margin-bottom: 32px;
 }
-
-
 .social-link-item {
   height: 40px;
   width: 40px;
 }
-
 .social-link-link {
   display: flex;
   width: 100%;
@@ -312,6 +319,7 @@ img {
 .social-link-link:focus {
   background-color: #404bbf;
 }
+/* SECTION 3 READY down*/
 
 .portfolio {
   padding: 120px 0;
