@@ -83,7 +83,9 @@ img {
 .navigation-link:focus {
   color: #404bbf;
 }
-
+.navigation-link:active {
+  color: #404bbf;
+}
 .navigation-link::after {
   content: "";
   width: 48px;
