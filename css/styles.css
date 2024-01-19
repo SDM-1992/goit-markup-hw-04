@@ -246,8 +246,6 @@ img {
   letter-spacing: 0.02em;
 }
 
-/* SECTION 3 READY top*/
-
 .team {
   padding: 120px 0;
   background-color: #f4f4fd;
@@ -330,7 +328,6 @@ img {
 .social-link-link:focus {
   background-color: #404bbf;
 }
-/* SECTION 3 READY down*/
 
 .portfolio {
   padding: 120px 0;
@@ -408,15 +405,14 @@ img {
   background-color: #2e2f42;
 }
 .footer-container {
-  position: relative;
   display: flex;
   align-items: baseline;
-  padding: 100px 0 212px 0;
+  padding: 100px 15px 100px 015px;
+  gap: 120px;
 }
 .footer-containeer-first {
-  position: absolute;
-  top: 101.5px;
-  margin-right: 120px;
+  display: flex;
+  flex-direction: column;
 }
 .logo-link-footer {
   font-family: "Raleway", sans-serif;
@@ -438,11 +434,9 @@ img {
   margin-top: 16.5px;
 }
 
-.social-media-footer {
-  display: block;
-  position: absolute;
-  left: 384px;
-  top: 100px;
+.footer-containeer-second {
+  display: flex;
+  flex-direction: column;
 }
 .social-media-footer-text {
   color: #fff;
