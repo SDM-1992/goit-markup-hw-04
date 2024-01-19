@@ -408,11 +408,11 @@ img {
   display: flex;
   align-items: baseline;
   padding: 100px 15px 100px 015px;
-  gap: 120px;
 }
 .footer-containeer-first {
   display: flex;
   flex-direction: column;
+  margin-right: 120px;
 }
 .logo-link-footer {
   font-family: "Raleway", sans-serif;
